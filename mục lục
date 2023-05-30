@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KING GAME</title>
+    <link rel="shortcut icon" type="web_image/png" href="logo-board-game_081052035.jpg">
+	<title>Phần mục lục với CSS</title>
+	<style>
+		.cangiua {
+    width: 1000px;
+    margin: auto;
+}
+
+.nen {
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.logo {
+    width: 170px;
+    height: 58px;
+    float: left;
+    background: url(https://img5.thuthuatphanmem.vn/uploads/2022/01/13/logo-board-game_081052035.jpg) no-repeat;
+    background-size: 165px 71px;
+    background-color: #aa5f5c;
+    background-position: center;
+    border-radius: 50%;
+    margin-bottom: 50%;
+}
+
+.maukhung {
+    height: auto;
+    float: left;
+    background: #c04953;
+    width: 100%;
+}
+
+.cach {
+    float: left;
+    padding: 0 20px;
+    line-height: 20px;
+}
+
+
+
+.cach1 {
+    float: left;
+    padding: 0 25px;
+    line-height: 37px;
+}
+
+.mau {
+    background: #b66060;
+
+    float: left;
+    width: 100%;
+    line-height: 52px;
+    padding: 0 12px;
+}
+
+.khungtrai {
+    border-radius: 10px;
+    margin-left: auto;
+    box-sizing: border-box;
+    background-color: rgb(226, 218, 218);
+    float: left;
+    margin: 5%;
+    list-style: none;
+
+}
+
+h1 {
+    font: 700 30px/30px arial;
+    text-align: center;
+
+}
+
+.bocham {
+    text-decoration: none;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+h3,
+p {
+    color: #0b0a0a;
+}
+
+.nháy {
+    padding: 15px;
+    color: rgb(189, 193, 75);
+
+}
+
+.nháy:hover {
+    background-color: #4e63b9;
+
+}
+
+.flex {
+    display: flex;
+
+}
+
+.flex div {
+    padding: 10px;
+    margin: 10px;
+}
+
+
+.inline-flex {
+    display: inline-flex;
+}
+
+.inline-flex div {
+    padding: 10px;
+    margin: 10px;
+}
+
+.container {
+    display: flex;
+}
+
+@media (min-width: 1024px) {
+    body {
+        background-image: url(https://cdnimg.vietnamplus.vn/t620/uploaded/ngtnnn/2023_01_26/2601game.jpg);
+        background-repeat: no-repeat;
+        background-size: auto;
+        background-position: center;
+        background-attachment: fixed;
+    }
+}
+
+@media (max-width: 670px) {
+    body {
+        background-image: url(https://cdnimg.vietnamplus.vn/t620/uploaded/ngtnnn/2023_01_26/2601game.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center;
+        background-attachment: fixed;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    p {
+        color: #000;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+    .flex{
+        flex-direction: column;
+    }
+    .inline-flex{
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    body {
+        background-image: url(https://cdnimg.vietnamplus.vn/t620/uploaded/ngtnnn/2023_01_26/2601game.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center;
+        background-attachment: fixed;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+}
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+		}
+
+		header {
+			background-color: #333333e7;
+			color: #fff;
+			padding: 10px;
+			text-align: center;
+		}
+
+		h1 {
+			margin-top: 0;
+		}
+
+		nav ul {
+			margin: 0;
+			padding: 0;
+			list-style: none;
+			background-color: #f2f2f2;
+			text-align: center;
+			font-size: 18px;
+		}
+
+		nav li {
+			display: inline-block;
+			margin-right: 10px;
+		}
+
+		nav li a {
+			display: block;
+			padding: 10px;
+			color: #333;
+			text-decoration: none;
+			transition: background-color 0.3s ease;
+		}
+
+		nav li a:hover {
+			background-color: #333;
+			color: #fff;
+		}
+
+		section {
+			padding: 20px;
+			border-bottom: 1px solid #ccc;
+		}
+
+		h2 {
+			margin-top: 0;
+		}
+	</style>
+</head>
+<body>
+
+	<body class="nen">
+		<div class="cangiua">
+			<div class="maukhung">
+				<div class="flex">
+					<div class="logo">
+						<div class="cach">
+							<a href="https://img5.thuthuatphanmem.vn/uploads/2022/01/13/logo-board-game_081052035.jpg"></a>
+						</div>
+					</div>
+					<div class="cach"> <a title="GAME HOT" href="" class="nháy">CỘNG ĐỒNG</a></div>
+	
+	
+					<div class="cach"><a title="MỤC LỤC" href="" class="nháy"> MỤC LỤC</a></div>
+	
+					<div class="cach"> <a title="DẠO" href="" class="nháy">KHÁM PHÁ</a></div>
+	
+	
+					<div class="cach"> <a title="LIÊN HỆ" href="" class="nháy">LIÊN HỆ</a></div>
+	
+	
+					<div class="cach"> <input id="" placeholder="tìm kiếm..." onabort="" onblur="" onfocus=""></div>
+				</div>
+				<div class="inline-flex">
+					<div class="cach"> <a href="" title="TRANG CHỦ">
+						  <img src="https://gamek.mediacdn.vn/web_images/home2424.png" alt="TRANG CHỦ"></div>
+						</a></div>
+	
+	
+					<div class="cach"> <a href="game.html" title="PUBG" class="nháy">PUBG</a></div>
+	
+	
+					<div class="cach"> <a href="goose goose duck.html" title="Goose Goose Duck" class="nháy">GOOSE GOOSE
+							DUCK</a></div>
+	
+	
+					<div class="cach"> <a href="LOL.html" title="LIEN MINH " class="nháy">LIEN MINH HUYỀN THOẠI</a>
+					</div>
+	
+					<div class="cach"> <a href="liên-quân.html" title="LIEN QUAN " class="nháy">LIEN QUAN MOBILE</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div style="padding-top: 15%;">
+			
+	
+	<section id="section1">
+		<h2>Phần 1</h2>
+		<p>PUBG </p>
+	</section>
+
+	<section id="section2">
+		<h2>Phần 2</h2>
+		<p>Goose Goose duck</p>
+	</section>
+
+	<section id="section3">
+		<h2>Phần 3</h2>
+		<p>Liên Minh Huyền Thoại</p>
+	</section>
+
+    <section id="section4">
+		<h2>Phần 4</h2>
+		<p>Liên Quân Mobile</p>
+	</section>
+	<header>
+		<h1>Mục lục </h1>
+		<footer>
+			<p>&copy; Lê Văn Thanh</p>
+		</footer>
+		
+	</header>
+
+</body>
+</html>
