@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>KING GAME</title>
+	<link rel="shortcut icon" type="web_image/png" href="logo-board-game_081052035.jpg">
+	<title>Liên Hệ</title>
+	<style>
+	
+		body {
+			font-family: Arial, sans-serif;
+			background-color: #F2F2F2;
+			color: #333;
+			margin: 0;
+			padding: 0;
+		}
+		
+		header {
+			background-color: #333;
+			color: #FFF;
+			text-align: center;
+			padding: 10px;
+		}
+		
+		h1 {
+			margin: 0;
+			font-size: 36px;
+		}
+		
+		form {
+			margin: 20px;
+			background-color: #FFF;
+			padding: 30px;
+			box-shadow: 0 0 10px rgba(0,0,0,0.1);
+			border-radius: 10px;
+			max-width: 500px;
+			margin: 0 auto;
+		}
+		
+		label {
+			display: block;
+			margin-bottom: 10px;
+			font-size: 18px;
+			font-weight: bold;
+		}
+		
+		input, textarea {
+			display: block;
+			width: 100%;
+			padding: 10px;
+			border: none;
+			border-radius: 5px;
+			background-color: #F2F2F2;
+			margin-bottom: 20px;
+			font-size: 16px;
+		}
+		
+		button {
+			background-color: #333;
+			color: #FFF;
+			padding: 10px 20px;
+			border: none;
+			border-radius: 5px;
+			font-size: 18px;
+			cursor: pointer;
+			display: block;
+			margin: 0 auto;
+		}
+	</style>
+</head>
+
+	<header>
+		<h1>Liên hệ</h1>
+	</header>
+	
+	<main>
+		<form>
+			<label for="name">Tên của bạn:</label>
+			<input type="text" id="name" name="name" required>
+			
+			<label for="email">Email:</label>
+			<input type="email" id="email" name="email" required>
+			
+			<label for="message">Tin nhắn:</label>
+			<textarea id="message" name="message" required></textarea>
+			
+			<button type="submit">Gửi tin nhắn</button>
+		</form>
+	</main>
+	
+	<footer>
+		<p>&copy; 2023 Liên hệ</p>
+	</footer>
+	
+</body>
+</html>
