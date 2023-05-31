@@ -120,24 +120,12 @@ p {
     display: flex;
 }
 
-@media (min-width: 1024px) {
-    body {
-        background-image: url(https://cdnimg.vietnamplus.vn/t620/uploaded/ngtnnn/2023_01_26/2601game.jpg);
-        background-repeat: no-repeat;
-        background-size: auto;
-        background-position: center;
-        background-attachment: fixed;
-    }
-}
 
 @media (max-width: 670px) {
-    body {
-        background-image: url(https://cdnimg.vietnamplus.vn/t620/uploaded/ngtnnn/2023_01_26/2601game.jpg);
-        background-repeat: no-repeat;
-        background-size: 100%;
-        background-position: center;
-        background-attachment: fixed;
-    }
+    body{
+                background-color: aliceblue;
+                background-image: none;
+            }
 
     h1 {
         font-size: 24px;
@@ -156,18 +144,48 @@ p {
     .inline-flex{
         flex-direction: column;
     }
-}
-
-@media (min-width: 768px) and (max-width: 1023px) {
-    body {
-        background-image: url(https://cdnimg.vietnamplus.vn/t620/uploaded/ngtnnn/2023_01_26/2601game.jpg);
-        background-repeat: no-repeat;
-        background-size: 100%;
-        background-position: center;
-        background-attachment: fixed;
+      body {
+        background-color: aliceblue;
+        background-image: none;
     }
 
     h1 {
-        font-size: 32px;
+        font-size: 24px;
     }
+
+    p {
+        color: #000;
+    }
+    .nha{
+        width: 80%;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+    .flex{
+        flex-direction: column;
+    }
+    .inline-flex{
+        flex-direction: column;
+    }
+    .noidung{
+        margin: auto;
+        padding: auto;
+        width: 100%;
+    }
+    img{
+        width: 80%;
+    }
+    .maukhung{    
+    height: auto;
+    float: left;
+    background: #c04953;
+    width: 35%;
+}
+.cach {
+    float: left;
+    padding:5%;
+    line-height: 10%;
+}
 }
