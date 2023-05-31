@@ -193,6 +193,10 @@
             .inline-flex{
                 flex-direction: column;
             }
+            body{
+                background-color: aliceblue;
+                background-image: none;
+            }
             .noidung{
                 margin: auto;
                 padding: auto;
